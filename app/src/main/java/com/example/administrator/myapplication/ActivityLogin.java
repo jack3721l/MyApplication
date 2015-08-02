@@ -4,19 +4,20 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.EditText;
 import android.widget.TextView;
 
 
 public class ActivityLogin extends ActionBarActivity {
 
-    private TextView tv = null;
+    private EditText username = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        tv = (TextView) findViewById(R.id.tv);
-        tv.setText("My Name is jack");
+        setContentView(R.layout.activity_login);
+        username = (EditText) findViewById(R.id.username);
+        username.setText("My Name is jack");
     }
 
     @Override
