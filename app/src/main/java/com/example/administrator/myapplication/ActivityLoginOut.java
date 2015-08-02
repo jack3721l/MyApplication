@@ -5,10 +5,9 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
-import android.widget.TextView;
 
 
-public class ActivityLogin extends ActionBarActivity {
+public class ActivityLoginOut extends ActionBarActivity {
 
     private EditText username = null;
 
